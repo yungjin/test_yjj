@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="http://192.168.3.25:5000/api/Select" method="POST">
+        </form>
+
+
+        <form action="http://192.168.3.25:5000/api/Insert" method="POST">
+            <input type="text" name="nTitle" placeholder=" "><br>
+            <input type="text" name="nContents" placeholder=" "><br>
+            <input type="submit" value="POST 추가"><br>
+        </form>
+
+        <hr>
+        
+        <form action="http://192.168.3.25:5000/api/Update" method="POST">
+            <input type="text" name="nTitle" placeholder=" "><br>
+            <input type="text" name="nContents" placeholder=" "><br>
+            <input type="text" name="mName" placeholder=" "><br>
+            <input type="submit" value="POST 수정"><br>
+        </form>
+
+        <hr>
+
+        <form action="http://192.168.3.25:5000/api/Delete" method="POST">
+            <input type="text" name="nNo" placeholder=" "><br>
+            <input type="submit" value="POST 삭제"><br>
+        </form>
+
+        <form action="http://192.168.3.25:5000/api/LvClick" method="POST">
+            <input type="text" name="nNo" placeholder=" "><br>
+        </form>
+
+    </body>
+
+</html>
